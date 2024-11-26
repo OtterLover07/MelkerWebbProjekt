@@ -1,8 +1,82 @@
 :root{
-/* CSS HEX PALETTE*/
---tomato: #ff5733ff;
---naples-yellow: #f0cf65ff;
---emerald: #3ddc97ff;
---cerulean: #457b9dff;
---rich-black: #0d1317ff;
+    /* CSS HEX PALETTE*/
+    --tomato: #ff5733ff;
+    --naples-yellow: #f0cf65ff;
+    --emerald: #3ddc97ff;
+    --cerulean: #457b9dff;
+    --rich-black: #0d1317ff;
+}
+.fancy_font {
+    font-family: "Italiana", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.important_font {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.casual_font {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    color: var(--rich-black);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+}
+
+header {
+    background-color: var(--tomato);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+header > a {
+    font-size: 18px;
+}
+main#mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+div#mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--tomato);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+section#recipes {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, calc(200px*1.4));
+    grid-gap: 5mm;
+}
+section#recipes > div {
+    background-color: var(--emerald);
+    border-radius: 20px;
+    display: flex;
+}
+footer {
+    display: flex;
+    background-color: var(--naples-yellow);
+    padding: 10px 50px 30px 50px;
 }
