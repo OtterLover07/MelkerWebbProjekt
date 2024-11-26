@@ -3,7 +3,7 @@
     --tomato: #ff5733ff;
     --naples-yellow: #f0cf65ff;
     --emerald: #3ddc97ff;
-    --cerulean: #457b9dff;
+    --moonstone: #46B1C9;
     --rich-black: #0d1317ff;
 }
 .fancy_font {
@@ -62,13 +62,14 @@ div#mainText {
     background-color: var(--tomato);
     border-radius: 20px;
     padding: 10px;
-    margin-bottom: 15px;
+    margin: 10px 0px 25px;
 }
 section#recipes {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     grid-template-rows: repeat(2, calc(200px*1.4));
     grid-gap: 5mm;
+    margin: 20px 0px;
 }
 section#recipes > div {
     background-color: var(--emerald);
