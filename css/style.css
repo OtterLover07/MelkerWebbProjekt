@@ -73,6 +73,7 @@ section#recipes {
 }
 section#recipes > div {
     background-color: var(--emerald);
+    border: 5px solid var(--emerald);
     border-radius: 20px;
     display: flex;
 }
