@@ -43,10 +43,14 @@ header {
     background-color: var(--tomato);
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
+    align-items: stretch;
 }
 header > a {
     font-size: 18px;
+    padding: 5px 20px;
+}
+a#homeLink {
+    text-decoration: none;
 }
 main#mainPage {
     display: flex;
@@ -71,11 +75,14 @@ section#recipes {
     grid-gap: 5mm;
     margin: 20px 0px;
 }
-section#recipes > div {
+section#recipes > a {
     background-color: var(--emerald);
     border: 5px solid var(--emerald);
     border-radius: 20px;
     display: flex;
+}
+section#recipes > a > div {
+    overflow: hidden;
 }
 footer {
     display: flex;
