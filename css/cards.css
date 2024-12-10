@@ -1,0 +1,10 @@
+section#recipes > a {
+    background-color: var(--emerald);
+    border: 5px solid var(--emerald);
+    border-radius: 20px;
+    display: flex;
+}
+section#recipes > a > div {
+    overflow: hidden;
+    display: grid;
+}

@@ -86,23 +86,6 @@ section#mainText {
     margin: 10px 0px 25px;
 }
 
-section#recipes {
-    display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, calc(200px*1.4));
-    grid-gap: 5mm;
-    margin: 20px 0px;
-}
-section#recipes > a {
-    background-color: var(--emerald);
-    border: 5px solid var(--emerald);
-    border-radius: 20px;
-    display: flex;
-}
-section#recipes > a > div {
-    overflow: hidden;
-}
-
 footer {
     display: flex;
     background-color: var(--naples-yellow);
