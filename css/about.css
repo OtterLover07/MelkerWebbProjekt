@@ -1,0 +1,6 @@
+section#aboutText {
+    background-color: var(--emerald);
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+}

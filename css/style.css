@@ -103,13 +103,6 @@ section#recipes > a > div {
     overflow: hidden;
 }
 
-section#aboutText {
-    background-color: var(--emerald);
-    border-radius: 20px;
-    padding: 20px;
-    width: 80%;
-}
-
 footer {
     display: flex;
     background-color: var(--naples-yellow);
