@@ -1,9 +1,12 @@
 section#recipes > a {
     width: 200px;
     height: calc(200px*1.4);
-    border: 5px solid var(--moonstone);
+    border: 5px solid var(--tomato);
     border-radius: 20px;
-    display: flex;
+    text-decoration: none;
+}
+section#recipes > a:hover {
+    border-color: var(--naples-yellow);
 }
 section#recipes > a > div {
     overflow: hidden;

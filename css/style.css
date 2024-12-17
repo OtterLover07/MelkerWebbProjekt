@@ -34,7 +34,7 @@
 
 body {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
     grid-template-areas:
@@ -100,4 +100,5 @@ footer {
     padding: 10px 50px 30px 50px;
     align-self: flex-end;
     grid-area: f;
+    justify-content: end;
 }

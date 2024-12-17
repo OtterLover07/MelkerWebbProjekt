@@ -16,7 +16,7 @@ article#recipe{
     padding: 10px;
     overflow-y: scroll;
     line-height: 50px;
-    border: 10px solid var(--emerald);
+    border: 10px solid var(--tomato);
     border-radius: 20px;
 }
 article#recipe > img{
@@ -33,7 +33,7 @@ aside#info{
     display: flex;
     flex-direction: column;
     min-height: max-content;
-    background-color: var(--moonstone);
+    background-color: var(--emerald);
     border-radius: 20px;
     padding: 20px;
 }
@@ -48,7 +48,7 @@ div#tags{
     align-content: flex-end;
 }
 p.tag{
-    background-color: var(--emerald);
+    background-color: var(--moonstone);
     margin: 2px;
     padding: 2px;
 }
@@ -60,7 +60,6 @@ section#comments{
     border: 10px solid var(--tomato);
     display: flex;
     flex-direction: column-reverse;
-
 }
 article.comment{
     height: min-content;
