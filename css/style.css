@@ -59,9 +59,14 @@ header {
     grid-area: h;
 }
 header > a {
+    display: flex;
+    flex-direction: row;
     font-size: 18px;
     padding: 0px 20px;
-    align-content: center;
+    align-items: center;
+}
+header > a > img {
+    height: 100%;
 }
 a#homeLink {
     text-decoration: none;
